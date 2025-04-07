@@ -1,11 +1,9 @@
 /*  your css code here. If applicable */
 .grid-container{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	flex-wrap:wrap;
+	display:grid;
 }
 .grid-container .grid-item{
+	display:flex;
 	margin:5px;
 	background-color:lightgray;
 	height:150px;
