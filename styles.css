@@ -1,5 +1,8 @@
 /*  your css code here. If applicable */
 .grid-container{
+	 width: 100%;
+     grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: repeat(150px, 200px);
 	display:grid;
 	grid-gap:10px 10px;
 }
